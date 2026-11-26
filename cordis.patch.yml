@@ -1,0 +1,8 @@
+# dsh-link-library bundle patch: mounts the row that runs both halves.
+# `config` is optional; the defaults live in index.js:
+#   fetchTitle: true   best-effort page title for a link saved without one
+#   dataDir: ''        directory holding library.json (default $DSH_HOME/link-library)
+#   promptGuidance: true   inject the short "个人记录" how-to into the system prompt
+- insert:
+    - id: link-library
+      name: dsh-link-library

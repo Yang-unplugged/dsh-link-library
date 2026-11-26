@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+*.log
+
+# 用户数据，不进仓库
+library.json
+links.json
+library.json.broken-*
